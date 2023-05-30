@@ -1,4 +1,4 @@
-use std::{borrow::Cow, io};
+use std::io;
 use textwrap::{wrap, Options};
 
 fn format_input(input: &str) -> String {
